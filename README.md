@@ -49,3 +49,7 @@ In the end, I summarized the data with the average of each variable for each act
 #Summarize and create the output file
 tidyDataset <- extractedDataset %>% group_by(Activity,Subject) %>% summarise_each(funs(mean))
 write.table(tidyDataset,"tidyDataset.txt",row.names=FALSE)
+
+To read the file produced with the tidyDataset, please run the following commands:
+data <- read.table(file_path, header = TRUE)
+View(data)
