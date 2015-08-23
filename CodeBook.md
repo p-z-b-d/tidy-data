@@ -1,13 +1,4 @@
-The following codebook captures the tables, variables represented, and row and column meanings for the dataset. The script ("run_analysis.r") condensed seven files into one.
-
-This file describes how the original files were transformed and what information is contained in each dataset. Two of those files were only logging the activities. One for the test data and one for the training data. Two of those files were just keeping track of which subject (AKA "volunteers") performed each activity. Another two files contained the actual measurements from all of the activities. The remaining file is the list of variables that were measured.
-
-There were 561 time and frequency domain variables in the features.txt file.
-
-ytest: ytest has 2947 rows and 1 column. The column represents an activity. 
-ytrain: ytrain has 7352 rows and 1 column. The column represents an activity.
-
-This codebook describes the variables, the data, and any transformations or work that you performed to clean up the data.
+This codebook describes the variables, the data, and any transformations or work that I performed to clean up the data.
 I worked with 7 tables that contain information about the activities performed (y_test.txt, y_train.txt), the subjects that performed said activities (subject_test.txt, subject_train.txt) and the measurements that were collected during these activities (X_test.txt, X_train.txt). The last table contains the list of 561 variables that were examined during the experiment (features.txt). The 561 columns in the (X_test.txt, X_train.txt) files represent measurements for these time and frequency domain variables.
 More detaits on each of the variables is provided by the features_info.txt:
 
